@@ -6,7 +6,7 @@ root: 01-APage
 parts:
   - caption: Background Information
     chapters:
-    - file: AnotherPage.md
+    - file: 02-AnotherPage.md
   - caption: Tutorials
     chapters:
     - file: Tutorials/Tutorial1.ipynb
