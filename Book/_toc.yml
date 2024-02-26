@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: 01-APage
+parts:
+  - caption: Background Information
+    chapters:
+    - file: AnotherPage.md
+  - caption: Tutorials
+    chapters:
+    - file: Tutorials/Tutorial1.ipynb
+#  - caption: API
+#    chapters:
+#    - file: API/data.rst
+#    - file: API/params.rst
+

@@ -1,0 +1,9 @@
+name: my-env
+channels:
+ - conda-forge
+dependencies:
+ - matplotlib
+ - numpy
+ - pandas
+# dependencies for building book
+ - jupyter-book

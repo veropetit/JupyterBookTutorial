@@ -23,7 +23,7 @@ jobs:
       uses: conda-incubator/setup-miniconda@v2.1.1
       with:
         environment-file: environment.yml
-        activate-environment: pol-env
+        activate-environment: my-env
         python-version: 3.9
         auto-activate-base: false
 
@@ -31,7 +31,7 @@ jobs:
     - name: Build the book
       shell: bash -l {0}
       run: |
-        jupyter-book build book
+        jupyter-book build Book
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
