@@ -13,3 +13,10 @@ def function4():
     Docstring for function 4
     '''
     print('Calling function 4')
+
+
+def function5():
+    '''
+    Docstring for function 5
+    '''
+    print('Calling function 5')
