@@ -10,8 +10,8 @@ parts:
   - caption: Tutorials
     chapters:
     - file: Tutorials/Tutorial1.ipynb
-#  - caption: API
-#    chapters:
-#    - file: API/data.rst
-#    - file: API/params.rst
+  - caption: API
+    chapters:
+    - file: API/TestModule1.rst
+    - file: API/TestModule2.rst
 
