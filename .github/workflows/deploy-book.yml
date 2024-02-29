@@ -34,7 +34,7 @@ jobs:
     - name: Build the book
       shell: bash -l {0}
       run: |
-        pip install git+https://github.com/veropetit/JupyterBookTutorial
+        pip install "git+https://github.com/veropetit/JupyterBookTutorial@$(curl -s https://api.github.com/repos/veropetit/JupyterBookTutorial/releases/latest | jq -r ".tag_name")"
         jupyter-book build Book
 
     # Push the book's HTML to github-pages
